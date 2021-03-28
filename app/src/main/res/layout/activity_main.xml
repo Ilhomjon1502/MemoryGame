@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_tabiat1_foreground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_time"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="00:00"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frm1"
+                style="@style/fram_rasm_style"
+                android:background="@drawable/rasm_foni">
+
+                <ImageView
+                    android:id="@+id/rasm1"
+                    style="@style/rasm_style"
+                    android:scaleType="centerCrop"/>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frm3"
+                style="@style/fram_rasm_style"
+                android:background="@drawable/rasm_foni">
+
+                <ImageView
+                    android:id="@+id/rasm3"
+                    style="@style/rasm_style"/>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frm5"
+                style="@style/fram_rasm_style"
+                android:background="@drawable/rasm_foni">
+
+                <ImageView
+                    android:id="@+id/rasm5"
+                    style="@style/rasm_style"
+                    android:scaleType="centerCrop"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frm2"
+                style="@style/fram_rasm_style"
+                android:background="@drawable/rasm_foni">
+
+                <ImageView
+                    android:id="@+id/rasm2"
+                    style="@style/rasm_style"
+                    android:scaleType="centerCrop"/>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frm4"
+                style="@style/fram_rasm_style"
+                android:background="@drawable/rasm_foni">
+
+                <ImageView
+                    android:id="@+id/rasm4"
+                    style="@style/rasm_style"
+                    android:scaleType="centerCrop"/>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frm6"
+                style="@style/fram_rasm_style"
+                android:background="@drawable/rasm_foni">
+
+                <ImageView
+                    android:id="@+id/rasm6"
+                    style="@style/rasm_style"
+                    android:scaleType="centerCrop"/>
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
